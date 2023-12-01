@@ -1,0 +1,58 @@
+.main {
+  display: flex;
+  /* background-color: aqua; */
+  flex-direction: column;
+  height: 100vh;
+}
+.top {
+  width: 100%;
+  flex: 1;
+  background-color: orange;
+  font-family: "Monoton";
+  font-size: 5rem;
+  font-weight: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-spacing: 50px;
+}
+.form {
+  width: 100%;
+  flex: 1;
+  background-color: rgb(204, 255, 0);
+}
+.list {
+  width: 100%;
+  flex: 4;
+  background-color: rgb(132, 106, 58);
+}
+.footer {
+  flex: 1;
+  background-color: aquamarine;
+  width: 100%;
+}
+.form1 {
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* padding: 20px; */
+  /* margin: 50px; */
+}
+button {
+  margin: 50px;
+  background-color: aqua;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  padding: 8px;
+}
+input {
+  /* width: 100px; */
+  height: 30px;
+  margin: 50px;
+}
+select {
+  height: 30px;
+  margin: 50px;
+}
