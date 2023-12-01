@@ -20,6 +20,7 @@ function Top() {
         <span> FAR AWAY</span>
         <span>💼</span>
       </div>
+      <h1></h1>
     </>
   );
 }
