@@ -10,7 +10,7 @@
   background-color: orange;
   font-family: "Monoton";
   font-size: 5rem;
-  font-weight: 10000;
+  /* font-weight: 10000; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,6 +30,10 @@
   flex: 1;
   background-color: aquamarine;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
 }
 .form1 {
   display: flex;
@@ -55,4 +59,20 @@ input {
 select {
   height: 30px;
   margin: 50px;
+}
+.listitems {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-decoration: ;
+}
+.items {
+  display: flex;
+  align-items: center;
+}
+span {
+  margin-left: 5px;
+}
+input[type="checkbox"] {
+  margin-left: 5px;
+  margin-right: 5px;
 }
